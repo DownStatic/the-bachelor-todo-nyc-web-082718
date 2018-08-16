@@ -51,7 +51,7 @@ end
 def get_average_age_for_season(data, season)
   average_age = 0
   running_total = 0
-  num = 0
+  num = 1
   data.each do |which,contestants|
     if which == season
       contestants.each do |contestant|
